@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<style>
+a{
+    text-align: center;
+}
+body {
+        color:white;
+        background: #376b8d;
+    }
+    ::placeholder{
+  text-align:center;
+
+    }
+	.form-main {
+		min-height: 41px;
+		background: rgb(202, 202, 202);
+		box-shadow: none !important;
+		border: transparent;
+	}
+	.form-control:focus {
+		background: #a7a7a7;
+	}
+	.form-control, .btn {        
+        border-radius: 2px;
+    }
+	.login-form {
+		width: 350px;
+		margin: 30px auto;
+		text-align: center;
+	}
+	.login-form h2 {
+        margin: 10px 0 25px;
+    }
+    .login-form form {
+		color: #7a7a7a;
+		border-radius: 3px;
+    	margin-bottom: 15px;
+        background:white;
+        padding: 30px;
+    }
+    .login-form .btn {        
+        font-size: 16px;
+        font-weight: bold;
+		background:rgb(122, 195, 255);
+		border: none;
+        outline: none !important;
+    }
+	.login-form .btn:hover, .login-form .btn:focus {
+		background: #2389cd;
+	}
+	.login-form a {
+		color:rgb(170, 169, 169);
+		text-decoration: underline;
+	}
+	.login-form a:hover {
+		text-decoration: none;
+	}
+	.login-form form a {
+		color:gray;
+		text-decoration: none;
+	}
+	.login-form form a:hover {
+		text-decoration: underline;
+	}
+</style>
+</head>
+<body>
+<div class="login-form">
+    <form action="#" method="post">
+        <h2 class="text-center">Login</h2>   
+        <div class="form-group ">
+        	<input type="text" class="form-control" name="username" placeholder="Login" required="required">
+        </div>
+		<div class="form-group">
+            <input type="Password" class="form-control" name="Password" placeholder="Password" required="required">
+        </div>        
+        <p style="color: rgb(0, 0, 0)"><a href="#">Lost your password?</a></p>
+        <div class="form-group">
+            <button type="submit" class="btn btn-primary btn-lg btn-block">login</button>
+        </div>
+    </form>
+   
+</div>
+</body>
+</html>
